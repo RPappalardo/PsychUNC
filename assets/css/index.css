@@ -1,1 +1,15 @@
- */body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}p{font-size:20px}p.small{font-size:16px}a,a.active,a:active,a:focus,a:hover{color:#18BC9C;outline:0}h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
+body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}p{font-size:20px}p.small{font-size:16px}a,a.active,a:active,a:focus,a:hover{color:#FFFFFF ;outline:0}h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
+body{
+  background-color: #56A0D3;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+    background-color:#000000;
+}
+.navbar-brand:hover {
+  border-color: #000000;
+  background-color: #000000;
+}
+#bleh {
+  color: #000000;
+}
