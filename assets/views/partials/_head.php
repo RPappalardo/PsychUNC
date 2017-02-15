@@ -40,6 +40,8 @@
     <!-- TODO Figure out a way to automatically compile on http request -->
     <link rel="stylesheet" href="/assets/css/styles.min.css"/>
     <link rel="stylesheet" href="/assets/css/<?= $css ?>.css" />
+    <link rel="stylesheet" href="/assets/css/index.css"/>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
