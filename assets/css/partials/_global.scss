@@ -1,0 +1,50 @@
+* {
+  
+}
+
+// TODO Test cross platform compatibility
+// // Disables overscroll
+// html {
+// 	overflow: hidden;
+// 	height: 100%;
+// }
+//
+// body {
+// 	height: 100%;
+// 	overflow: auto;
+// }
+
+// TODO Test cross platform compatibility
+// // Changes drag to select text highlight & text color
+// ::selection {
+//   background: __backgroundColor__;
+//   color: __textColor__;
+// }
+// ::-moz-selection {
+//   background: __backgroundColor__;
+//   color: __textColor__;
+// }
+
+// TODO Test cross platform compatibility
+// // Disables drag to select text
+// .noSelect {
+//   cursor: default;
+//   -webkit-touch-callout: none;
+//   -webkit-user-select: none;
+//   -khtml-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+// }
+
+// TODO Test cross platform compatibility
+// // Disables Scrollbar
+// ::-webkit-scrollbar {
+//     width: 0px
+// }
+// ::-webkit-scrollbar-track-piece {
+//     background-color: transparent
+//     -webkit-border-radius: 6px
+// }
+
+// Global Fonts

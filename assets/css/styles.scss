@@ -1,0 +1,11 @@
+// TODO Make Config useful
+// Config
+$primary-color: #333;
+
+// // Libraries
+@import 'lib/bootstrap/bootstrap.min', 'lib/bootstrap/bootstrap-theme.min';
+
+// Partials
+@import 'partials/_global';
+@import 'partials/_navbar';
+@import 'partials/_footer';
