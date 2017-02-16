@@ -48,14 +48,8 @@
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
-                    <br>
-                    <div id="success"></div>
-                    <div class="row">
-                        <div class="form-group col-xs-12">
-                            <button fill="#C0C0C0" type="submit" class="btn btn-success btn-lg">
-                              <a href= "/signup/index.php">Register</a></button>
-                        </div>
-                    </div>
+                    <button type="submit" class="btn btn-success btn-lg">Register</button>
+
                 </form>
             </div>
         </div>

@@ -55,7 +55,7 @@
 
             </ol>
 
-            <input type="submit" value="Submit Quiz" />
+    <center>        <input type="submit" value="Submit Quiz" class="btn btn-success btn-lg" /> </center>
 
 		</form>
 </div>

@@ -26,7 +26,7 @@
 					<input id="num-questions" name="num-questions" type="hidden" value="1"/>
 					<br/><br/>
 					<h5>Options</h5>
-					Eidt quiz options
+					Edit quiz options
 					<!--
 					Quiz Options:
 						////////////////////////////////////////////////////////

@@ -119,11 +119,11 @@ section{
     <table cellpadding="0" cellspacing="0" border="0">
       <thead>
         <tr>
-          <th>Code</th>
-          <th>Company</th>
-          <th>Price</th>
-          <th>Change</th>
-          <th>Change %</th>
+          <th>Name</th>
+          <th>Onyen</th>
+          <th>Percentage Complete</th>
+          <th>Current Module</th>
+          <th>Download Zip</th>
         </tr>
       </thead>
     </table>
