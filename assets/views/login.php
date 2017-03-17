@@ -1,3 +1,33 @@
+<?php
+    /*
+    $ID = $_POST['user'];
+    $Password = $_POST['password'];
+    */
+    function SignIn()
+    {
+    session_start();   //starting the session for user profile page
+    if(!empty($_POST['username']))   //checking the 'user' name which is from Sign-In.html, is it empty or have some text
+    {
+            	$query = mysql_query("SELECT *  FROM UserName where userName = '$_POST[username]' AND password = '$_POST[password]'") or die(mysql_error());
+            	$row = mysql_fetch_array($query) or die(mysql_error());
+            	if(!empty($row['userName']) AND !empty($row['password']))
+            	{
+                        	$_SESSION['userName'] = $row['password'];
+                        	echo "SUCCESSFULLY LOGGED IN";
+            	}
+            	else
+            	{
+                        	echo " INCORRECT ID AND PASSWORD... PLEASE RETRY...";
+            	}
+    }
+    }
+    if(isset($_POST['submit']))
+    {
+            	SignIn();
+    }
+    ?>
+
+
 <!-- Login Grid Section -->
     <main class="container">
    <section id="login">
@@ -34,4 +64,4 @@
    </section>
 </main>
 
-       
+<center> <h2> Don't have an account? <a href ="/Signup/index.php">Register!</a></h2></center>
