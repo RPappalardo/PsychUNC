@@ -11,3 +11,11 @@
 
   require 'assets/views/partials/_footer.php';
   require 'assets/views/partials/_scripts.php';
+?>
+
+  <?php
+  session_start();
+  if(!isset($_SESSION['username'])){
+  header("Location: /Login/index.php");
+  }
+  ?>
