@@ -14,14 +14,12 @@
               <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
               <form name="registerForm" id="registerForm" validate>
                 <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <div class="form-group col-xs-12 col-sm-6 floating-label-form-group controls">
                     <label>First Name</label>
                     <input type="text" class="form-control" placeholder="First Name" id="firstname" required data-validation-required-message="Please enter your first name.">
                     <p class="help-block text-danger"></p>
                   </div>
-                </div>
-                <div class="row control-group">
-                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                  <div class="form-group col-xs-12 col-sm-6 floating-label-form-group controls">
                     <label>Last Name</label>
                     <input type="text" class="form-control" placeholder="Last Name" id="lastname" required data-validation-required-message="Please enter your last name.">
                     <p class="help-block text-danger"></p>
@@ -36,15 +34,15 @@
                 </div>
                 <div class="row control-group">
                   <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <label>Phone Number</label>
-                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                    <label>Password</label>
+                    <input type="password" class="form-control" placeholder="Password" id="password" required data-validation-required-message="Please enter a password.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="row control-group">
                   <div class="form-group col-xs-12 floating-label-form-group controls">
-                    <label>Code</label>
-                    <textarea type="num" class="form-control" placeholder="Class Code" id="classCode" required data-validation-required-message="Please enter a message."></textarea>
+                    <label>Password Confirmation</label>
+                    <input type="password" class="form-control" placeholder="Password Confirmation" id="password2" required data-validation-required-message="Please enter a password.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
