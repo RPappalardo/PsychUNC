@@ -26,12 +26,10 @@
                                <textarea type="num" class="form-control" placeholder="Password" id="password" required data-validation-required-message="Please enter password."></textarea>
                            </div>
                        </div>
-                               <button type="submit" class="btn btn-success btn-lg">Login</button>
+                      <button type="submit" class="btn btn-default btn-lg">Login</button>
                    </form>
                </div>
            </div>
        </div>
    </section>
 </main>
-
-       
