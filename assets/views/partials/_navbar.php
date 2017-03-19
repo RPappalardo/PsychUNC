@@ -29,6 +29,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Professor <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/gradebook"><p>Gradebook</p></a></li>
+                <li><a href="/roster"><p>Roster</p></a></li>
                 <li><a href="#"><p>Manage Modules</p></a></li>
               </ul>
             </li>
