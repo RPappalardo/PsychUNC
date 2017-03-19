@@ -21,18 +21,15 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="/modules"><p>Student View Modules</p></a></li>
-                <li><a href="/studentquestion"><p>Student Quiz Question</p></a></li>
-                <li><a href="/studentquestion"><p>Student Quiz Results</p></a></li>
+                <li><a href="/modules"><p>Modules</p></a></li>
+                <li><a href="/grades"><p>Grades</p></a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Professor <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="/studentquestion"><p>Prof Quiz List</p></a></li>
-                <li><a href="/studentquestion"><p>Prof Create Quiz</p></a></li>
-                <li><a href="/studentquestion"><p>Prof Edit Quiz</p></a></li>
-                <li><a href="/studentquestion"><p>Prof Gradebook</p></a></li>
+                <li><a href="/gradebook"><p>Gradebook</p></a></li>
+                <li><a href="#"><p>Manage Modules</p></a></li>
               </ul>
             </li>
           </ul>
