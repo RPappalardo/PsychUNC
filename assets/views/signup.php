@@ -51,7 +51,7 @@
                 <div class="row">
                   <div class="form-group col-xs-12">
                     <button fill="#C0C0C0" type="submit" class="btn btn-default btn-lg">
-                      <a href= "/signup/index.php">Register</a></button>
+                      Register</button>
                     </div>
                 </div>
               </form>
