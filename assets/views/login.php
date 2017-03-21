@@ -23,7 +23,7 @@
                 <div class="row control-group">
                   <div class="form-group col-xs-12 floating-label-form-group controls">
                     <label>Password</label>
-                    <textarea type="num" class="form-control" placeholder="Password" id="password" required data-validation-required-message="Please enter your password."></textarea>
+                    <input type="password" class="form-control" placeholder="Password" id="password" required data-validation-required-message="Please enter your password.">
                   </div>
                 </div>
                 <button type="submit" class="btn btn-default btn-lg">Login</button>
