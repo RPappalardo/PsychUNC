@@ -44,11 +44,11 @@
 
           $totalCorrect = 0;
 
-          if ($answer1 == "Cascading Style Sheets" || "cascading style sheets") { $totalCorrect++; }
+          if ($answer1 == "Cascading Style Sheets" ) { $totalCorrect++; }
           if ($answer2 == "2001") { $totalCorrect++; }
-          if ($answer3 == "Search Engine Optimization" || "search engine optimization") { $totalCorrect++; }
-          if ($answer4 == "Hypertext Markup Language" || "heypertext markup language") { $totalCorrect++; }
-          if ($answer5 == "Hello" || "hello" || "hi" || "hola" || "Hi" || "Hola") { $totalCorrect++; }
+          if ($answer3 == "Search Engine Optimization") { $totalCorrect++; }
+          if ($answer4 == "Hypertext Markup Language") { $totalCorrect++; }
+          if ($answer5 == "Hello") { $totalCorrect++; }
 
           echo "<div id='results'><h2>You got $totalCorrect / 5 correct</h2></div>";
 
