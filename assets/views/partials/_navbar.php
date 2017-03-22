@@ -30,7 +30,7 @@
               <ul class="dropdown-menu">
                 <li><a href="/gradebook"><p>Gradebook</p></a></li>
                 <li><a href="/roster"><p>Roster</p></a></li>
-                <li><a href="#"><p>Manage Modules</p></a></li>
+                <li><a href="/editquiz"><p>Manage Modules</p></a></li>
               </ul>
             </li>
           </ul>
