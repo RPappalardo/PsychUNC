@@ -9,3 +9,19 @@ $primary-color: #333;
 @import 'partials/_global';
 @import 'partials/_navbar';
 @import 'partials/_footer';
+
+
+.navbar-default, .container-fluid
+{
+  background-color:#7BAFD4 !important;
+  border-color: #7BAFD4 !important;
+  fill: #7BAFD4 !important;;
+}
+.navbar-default .navbar-brand
+{
+  color: #fff;
+}
+.navbar-default, .navbar-nav>li>a
+{
+    color: #fff !important;
+  }

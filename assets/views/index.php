@@ -80,15 +80,16 @@
             <p><center><a class="btn btn-lg btn-success" href="../Signup/index.php" role="button">Get started today</a></center></p>
          </div>
          <!-- Example row of columns -->
+              <div class="jumbotron">
          <center>
          <div class="row">
          <div class="col-lg-4">
             <h2>About</h2>
-            <div><a class="btn btn-primary" href="#popup1">Let me Pop up</a>
+            <div><a class="btn btn-primary" href="#popup1">Learn More</a>
             </div>
             <div id="popup1" class="overlay">
                <div class="popup">
-                  <h2>Here i am</h2>
+                  <h2>Hey</h2>
                   <a class="close" href="#">&times;</a>
                   <div class="content">
                      Thank to pop me out of that button, but now i'm done so you can close this window.
@@ -99,10 +100,10 @@
          </div>
          <div class="col-lg-4">
             <h2>User Guide</h2>
-            <div><a class="btn btn-primary" href="#popup1">Let me Pop up</a></div>
-            <div id="popup1" class="overlay">
+            <div><a class="btn btn-primary" href="#popup2">Learn More</a></div>
+            <div id="popup2" class="overlay">
                <div class="popup">
-                  <h2>Here i am</h2>
+                  <h2>Hey</h2>
                   <a class="close" href="#">&times;</a>
                   <div class="content">
                      Thank to pop me out of that button, but now i'm done so you can close this window.
@@ -113,14 +114,16 @@
          </div>
          <div class="col-lg-4">
             <h2>Contact Us</h2>
-            <div><a class="btn btn-primary" href="#popup1">Let me Pop up</a>
+            <div><a class="btn btn-primary" href="#popup3">Learn More</a>
             </div>
-            <div id="popup1" class="overlay">
+            <div id="popup3" class="overlay">
                <div class="popup">
-                  <h2>Here i am</h2>
+                  <h2>Stay in Touch!</h2>
                   <a class="close" href="#">&times;</a>
                   <div class="content">
-                     Thank to pop me out of that button, but now i'm done so you can close this window.
+                    <br><br>
+                    <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
+                    <a href="tel:1-408-555-5555">+1 (408) 555-5555</a>
                   </div>
                </div>
             </div>
@@ -128,7 +131,6 @@
          </div>
        </div>
      </center>
-         <br><br>
-         <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
-         <a href="tel:1-408-555-5555">+1 (408) 555-5555</a>
+
       </main>
+</div>
