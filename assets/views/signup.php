@@ -1,3 +1,6 @@
+<?php
+if($_POST != null) { echo $_GET; }
+?>
 <!-- Login Grid Section -->
     <main class="container">
       <section class="success" id="register">
@@ -12,7 +15,7 @@
             <div class="col-lg-8 col-lg-offset-2">
               <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
               <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-              <form name="registerForm" id="registerForm" validate>
+              <form name="registerForm" id="registerForm" action= "Signup/index.php" method = "post" validate>
                 <div class="row control-group">
                   <div class="form-group col-xs-12 col-sm-6 floating-label-form-group controls">
                     <label>First Name</label>
@@ -60,3 +63,27 @@
         </div>
       </section>
     </main>
+
+    <?php
+
+    function SignUp()
+{
+if(!empty($_POST['user']))   //checking the 'user' name which is from Sign-Up.html, is it empty or have some text
+{
+	$query = mysql_query("SELECT * FROM users WHERE username = '$_POST[user]' AND pass = '$_POST[pass]'") or die(mysql_error());
+
+	if(!$row = mysql_fetch_array($query) or die(mysql_error()))
+	{
+		newuser();
+	}
+	else
+	{
+		echo "SORRY...YOU ARE ALREADY REGISTERED USER...";
+	}
+}
+}
+if(isset($_POST['submit']))
+{
+	SignUp();
+}
+ ?>
