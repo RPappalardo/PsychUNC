@@ -33,6 +33,8 @@
                 <li><a href="/editquiz"><p>Manage Modules</p></a></li>
               </ul>
             </li>
+            <li><a href="logout.php" tite = "logout"><p>Logout</p></a></li>
+
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
