@@ -5,21 +5,28 @@
       <table class="table">
         <thead>
           <th>Student</th>
-          <th>Module 1</th>
-          <th>Module 2</th>
-          <th>Average</th>
+          <th>Chapter 1</th>
+          <th>Chapter 2</th>
+          <th>Chapter 3</th>
+          <th>Completed</th>
+          <th>TimeStamp</th>
         </thead>
         <tr>
           <td>Doogo</td>
           <td>A</td>
           <td>A</td>
-          <td>100%</td>
+          <td>A</td>
+          <td>Yes</td>
+          <td>12:35am August</td>
         </tr>
         <tr>
           <td>Pupper</td>
           <td>0</td>
           <td>0</td>
-          <td>0%</td>
+          <td>0</td>
+          <td>0</td>
+          <td>No</td>
+          <td>-</td>
         </tr>
       </table>
 
