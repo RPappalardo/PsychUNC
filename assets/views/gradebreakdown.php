@@ -5,29 +5,35 @@
       <table class="table">
         <thead>
           <th>Student</th>
-          <th>Chapter 1</th>
-          <th>Chapter 2</th>
-          <th>Chapter 3</th>
+          <th>Completed</th>
           <th>Percentage Right</th>
-            <th>Completion TimeStamp</th>
+          <th>Time Stamp</th>
         </thead>
         <tr>
-          <td>Doogo</td>
-          <td>Completed</td>
-          <td>Completed</td>
-          <td>Completed</td>
-          <td>75</td>
+          <td>Module 1</td>
+          <td>Yes</td>
+          <td>75%</td>
           <td>2014/Aug/1</td>
-
         </tr>
         <tr>
-          <td>Pupper</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>-</td>
+          <td>Module 2</td>
+          <td>Yes</td>
+          <td>75%</td>
+          <td>2014/Aug/1</td>
         </tr>
+        <tr>
+          <td>Module 3</td>
+          <td>Yes</td>
+          <td>75%</td>
+          <td>2014/Aug/1</td>
+        </tr>
+        <tr>
+          <td>Module 4</td>
+          <td>Yes</td>
+          <td>75%</td>
+          <td>2014/Aug/1</td>
+        </tr>
+
       </table>
 
       <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>

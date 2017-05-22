@@ -1,44 +1,83 @@
 
     <main class="container">
       <h1>Grades</h1>
-
+<h1>Chapter 1</h1>
       <table class="table">
         <thead>
           <th>Module</th>
-          <th>Correct</th>
-          <th>Grade</th>
+          <th>Completed</th>
+          <th>Percentage Correct</th>
         </thead>
         <tr>
           <td>1</td>
-          <td>5</td>
+          <td>Yes</td>
           <td>A</td>
         </tr>
         <tr>
           <td>2</td>
-          <td>0</td>
+          <td>Yes</td>
           <td>F</td>
         </tr>
         <tr>
           <td>3</td>
-          <td>0</td>
+          <td>Yes</td>
           <td>F</td>
         </tr>
         <tr>
           <td>4</td>
-          <td>0</td>
+          <td>Yes</td>
           <td>F</td>
         </tr>
         <tr>
           <td>5</td>
-          <td>0</td>
+          <td>Yes</td>
           <td>F</td>
         </tr>
         <tr>
           <td>6</td>
-          <td>0</td>
+          <td>Yes</td>
           <td>F</td>
         </tr>
       </table>
+
+      <h1>Chapter 2</h1>
+            <table class="table">
+              <thead>
+                <th>Module</th>
+                <th>Completed</th>
+                <th>Percentage Correct</th>
+              </thead>
+              <tr>
+                <td>1</td>
+                <td>5</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>0</td>
+                <td>F</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>0</td>
+                <td>F</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>0</td>
+                <td>F</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>0</td>
+                <td>F</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>0</td>
+                <td>F</td>
+              </tr>
+            </table>
 
       <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
       <a href="tel:1-408-555-5555">+1 (408) 555-5555</a>
