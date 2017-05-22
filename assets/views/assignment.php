@@ -16,6 +16,7 @@
           <label for="question1">CSS Stands for ____ ?</label>
           <div><input type="text" name="question-1-answers" id="question-1-answers-A" value="" /></div>
         </div>
+        <!--
         <div class="form-group">
           <label for="question2">Internet Explorer 6 was released in ____ ?</label>
           <div><input type="text" name="question-2-answers" id="question-2-answers-A" value="" /></div>
@@ -31,27 +32,27 @@
         <div class="form-group">
           <label for="question5">Hello!</label>
            <div><input type="text" name="question-5-answers" id="question-5-answers-A" value="" /></div>
-        </div>
+        </div> -->
         <button type="submit" value="Submit Quiz" class="btn btn-default">Submit</button>
       </form>
       <br><br>
       <?php
 
           $answer1 = $_POST['question-1-answers'];
-          $answer2 = $_POST['question-2-answers'];
-          $answer3 = $_POST['question-3-answers'];
-          $answer4 = $_POST['question-4-answers'];
-          $answer5 = $_POST['question-5-answers'];
+      //    $answer2 = $_POST['question-2-answers'];
+      //    $answer3 = $_POST['question-3-answers'];
+    //      $answer4 = $_POST['question-4-answers'];
+    //      $answer5 = $_POST['question-5-answers'];
 
           $totalCorrect = 0;
 
           if ($answer1 == "Cascading Style Sheets" ) { $totalCorrect++; }
-          if ($answer2 == "2001") { $totalCorrect++; }
-          if ($answer3 == "Search Engine Optimization") { $totalCorrect++; }
-          if ($answer4 == "Hypertext Markup Language") { $totalCorrect++; }
-          if ($answer5 == "Hello") { $totalCorrect++; }
+    //      if ($answer2 == "2001") { $totalCorrect++; }
+    //      if ($answer3 == "Search Engine Optimization") { $totalCorrect++; }
+    //      if ($answer4 == "Hypertext Markup Language") { $totalCorrect++; }
+      //    if ($answer5 == "Hello") { $totalCorrect++; }
 
-          echo "<div id='results'><h2>You got $totalCorrect / 5 correct</h2></div>";
+          echo "<div id='results'><h2>You got $totalCorrect / 1 correct</h2></div>";
 
 
 
