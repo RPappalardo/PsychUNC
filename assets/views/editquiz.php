@@ -64,7 +64,6 @@
 					<h6>Edit Quiz Display</h6>
 					<select name="quiz-display">
 						<option value="one">One Page</option>
-						<option value="multiple">Multiple Pages</option>
 					</select><br/>
 
 					<h6>Allow immediate feedback</h6>
@@ -74,11 +73,11 @@
 					</select>
 					<br/>
 
-					<h6>Randomize question order</h6>
+	<!--				<h6>Randomize question order</h6>
 					<select name="order">
 						<option value="yes">Yes</option>
 						<option value="no">No</option>
-					</select>
+					</select>  -->
 					<br/><br/>
 
 					<!--
