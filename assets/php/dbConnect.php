@@ -1,5 +1,7 @@
 
 <?php
+error_reporting( ~E_DEPRECATED & ~E_NOTICE );
+
 $servername = "localhost";
 $username = "rachelan";
 $password = "HSy3ZPonbQCzJ6SA";
