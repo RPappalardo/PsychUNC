@@ -13,7 +13,7 @@
         </thead>
         <tr>
           <td>Doogo</td>
-          <td>Completed</td>
+          <td><a href="../gradebook/gradebreakdown/index.php">Completed</a></td>
           <td>Completed</td>
           <td>Completed</td>
           <td>75</td>
